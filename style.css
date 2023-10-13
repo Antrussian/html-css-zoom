@@ -86,15 +86,6 @@ main {
 }
 
 
-.img-test{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    
-
-}
-
 
 
 .user {
@@ -103,7 +94,7 @@ main {
     color: white;
     bottom: 0;
     left: 0;
-    z-index: 99;
+   
     height: 20px;
     padding: 0px 3px 0px 3px;
 }
