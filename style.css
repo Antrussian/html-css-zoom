@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+body {
+    font-family: sans-serif;
+}
 
 .flex-row {
     display: flex;
@@ -31,15 +33,6 @@ background-color:  rgb(15, 15, 15);;
 }
 
 
-.container-footer {
-    background-color:  rgb(15, 15, 15);;
-    width: 100vw;
-    height: 10vh;
- position: fixed;
-  
-
-  
-}
 
 
 main {
@@ -100,21 +93,77 @@ main {
 }
 
 
+
+.container-footer {
+     background-color:  rgb(40, 40, 40);
+    width: 100vw;
+    height: 10vh;
+ overflow: auto;
+ justify-content: space-between;
+flex-wrap: nowrap;
+align-items: baseline;
+ position: fixed;
+ padding-left: 5px;
+
+ 
+  
+}
+
+
+.footer-block {
+    width: 10vw;
+
+}
+
+
 /*-----------------------------------------------------*/
 
 
-.footer-down{
-   
-    height: 10vh;
-  background-color:  rgb(40, 40, 40);;
-    width: 100vw;
-    justify-content: end;
-    z-index: 99;
-    position: fixed;
-    overflow: auto;
-  
+
+
+.footer-items{
+
+
+     align-items: center;
+
+    
+     justify-content: flex-start;
     
 }
+
+
+.footer-start{
+
+  
+     justify-content: flex-start;
+     align-items: center;
+    
+    
+}
+
+
+
+.footer-end{
+ background-color: rgb(60, 60, 60);
+
+     width: 100px;
+    height: 100%;
+     align-items: center;
+     justify-content: center;
+     justify-self: stretch;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .flex-item {
     display: flex;
@@ -134,7 +183,7 @@ main {
 
 
 .button-header {
-height: 20px;
+
 border: none;
 background-color:  rgb(15, 15, 15);
 border-radius: 5px;
@@ -143,6 +192,48 @@ color: white;
 align-items: center;
 margin-top: 5px;
 margin-right: 5px;
+}
+
+
+.button-nav {
+ color: white;
+    width: 30px;
+
+    justify-content: center;
+align-items: center;
+}
+
+
+.testo-nav {
+    color: white;
+    font-size: 10px;
+    justify-content: center;
+align-items: center;
+}
+
+.button-nav-cta {
+    background-color: greenyellow;
+   color: rgb(0, 228, 46);
+    width: 20px;
+ 
+    justify-content: center;
+align-items: center;
+}
+
+.testo-end {
+     color: red;
+    font-size: 10px;
+    justify-content: center;
+align-items: center;
+}
+
+
+.testo-nav {
+    color: white;
+    font-size: 10px;
+    justify-content: center;
+align-items: center;
+margin-top: 10px;
 }
 
 .img{
